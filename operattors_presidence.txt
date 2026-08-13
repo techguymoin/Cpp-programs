@@ -1,0 +1,20 @@
+    Common Operator Precedence
+Priority	Operators	Description
+   1	         ()	    Parentheses
+   2	       * / %	Multiplication, Division, Modulus
+   3	        + -	    Addition, Subtraction
+   4	     < > <= >=	Relational
+   5	       == !=	Equality
+   6	        &&	    Logical AND
+   7	         `	
+   8	         =	    Assignment
+Important
+
+Parentheses can be used to change the order of evaluation.
+
+int result = (10 + 5) * 2;
+
+Output:
+
+30
+    
