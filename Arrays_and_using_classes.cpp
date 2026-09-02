@@ -5,13 +5,9 @@ class shop
 private:
     int itemid[10];
     int itemprice[10];
-    int counter;
 
 public:
-    void initCounter()
-    {
-        counter = 0;
-    }
+    
     void setprice();
     void displayprice();
 };
